@@ -39,6 +39,9 @@ module.exports = {
   get AccessToken() {
     return require('./FBAccessToken');
   },
+  get AppLinks() {
+    return require('./FBAppLinks');
+  },
   get AppEventsLogger() {
     return require('./FBAppEventsLogger');
   },
